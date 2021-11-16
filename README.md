@@ -1,0 +1,2 @@
+# libgd
+/opt/libgd

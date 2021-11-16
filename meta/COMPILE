@@ -1,0 +1,4 @@
+
+./configure --prefix=/opt/libgd \
+  --sbindir=/opt/libgd/bin \
+  --sysconfdir=/opt/libgd/conf

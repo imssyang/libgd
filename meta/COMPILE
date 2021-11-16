@@ -1,4 +1,8 @@
 
 ./configure --prefix=/opt/libgd \
   --sbindir=/opt/libgd/bin \
-  --sysconfdir=/opt/libgd/conf
+  --sysconfdir=/opt/libgd/conf \
+  --with-gnu-ld \
+  LIBTIFF_CFLAGS="-I/opt/libtiff/include" \
+  LIBTIFF_LIBS="-L/opt/libtiff/lib -ltiff"
+
